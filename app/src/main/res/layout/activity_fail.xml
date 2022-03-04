@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:gravity="center"
+            android:text="실패"
+            android:textColor="@color/red"
+            android:textSize="100dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="다시 도전 하시겠습니까?"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/fail_retry_btn"
+            android:layout_width="273dp"
+            android:layout_height="98dp"
+            android:text="다시하기"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
